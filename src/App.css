@@ -142,8 +142,11 @@
 }
 @media (max-width: 768px) {
   .intro .left .imgContainer {
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     padding-top: 10px;
+    height: 50%;
+    width: 50%;
   }
 }
 .intro .left .img {
@@ -452,7 +455,7 @@ body {
 @media (max-width: 768px) {
   .portfolio .container .card.featured {
     width: 250px;
-    height: 100%;
+    height: 70%;
     margin: 1px;
   }
 }
@@ -533,6 +536,7 @@ body {
 @media (max-width: 768px) {
   .technologies h1 {
     font-size: 20px;
+    padding: 5px;
   }
 }
 
