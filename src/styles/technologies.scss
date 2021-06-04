@@ -1,0 +1,27 @@
+.technologies{
+      background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+.user {
+  padding: 15px;
+  margin-top: 15px;
+   @media (max-width: 768px){
+    height: 370px;
+          font-size: 12px;
+          padding: 5px;
+}}
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding: 55px;
+    height: 105px;
+     @media (max-width: 768px){
+      font-size: 20px;
+    }
+  } }
+
+  

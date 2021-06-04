@@ -1,0 +1,198 @@
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color:darkblue;
+  color: darkblue;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+@media (max-width: 768px){
+          
+          
+          
+        }
+  
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+@media (max-width: 768px){
+          padding: 22px 5px 22px 0px;
+      
+        }
+    .left {
+      display: flex;
+      align-items: center;
+      background-color: darkblue;
+@media (max-width: 768px){
+          margin-left: 0px;
+          margin-right: 0px;
+          font-size: small;
+          
+        }
+     
+
+      .itemContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 1px;
+        margin-right:1px;
+background-color: darkblue;
+    @media (max-width: 768px){
+        margin-left:0px;
+        margin-right:0px;
+        }
+
+        .icon {
+          font-size: 18px;
+          margin-right: 5px;
+          color: white;
+          background-color: darkblue;
+          @media (max-width: 768px){
+         display: none;
+        }
+        }
+
+        span {
+          font-size: 15px;
+          font-weight: 500;
+          color: white;
+          background-color: darkblue;
+          margin-right: 12px;
+          @media (max-width: 768px){
+         display: none;
+        }
+        }
+      }
+    }
+
+    .right {
+      display: inline;
+      position: relative;
+      background-color: darkblue;
+     @media (max-width: 768px){
+         
+        }
+      
+    }
+  }
+  .links {
+    display: table;
+    align-items: center;
+    margin-left: 190px;
+    color: darkblue;
+    background-color: darkblue;
+    text-decoration: none;
+   
+    @media (max-width: 768px){
+          margin-left: 0px;
+          margin-right: 12px;
+          display:table;
+        }
+  }
+  
+    
+    .home {
+      display: inline;
+      position: relative;
+      font-size: xx-large;
+      margin-left: 20px;
+      font-family: sans-serif;
+      color: darkblue;
+      background-color: darkblue;
+    text-decoration: none;
+    margin-right: 40px ;
+   @media (max-width: 768px){
+          margin-left: 1px;
+          margin-right: 12px;
+          font-size: large;
+        }
+    }
+    .home:hover {
+  transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+    .hometext{
+      font-family: sans-serif;
+      color: white;
+    text-decoration: none;
+    }
+
+    .portfolio {
+      display: inline;
+      position: relative;
+      font-size: xx-large;
+      margin-left: 20px;
+      color: darkblue;
+      background-color: darkblue;
+    text-decoration: none;
+    margin-right: 40px ;
+    @media (max-width: 768px){
+          margin-left: 12px;
+          font-size: large;
+          margin-right: 12px;
+          
+        }
+    }.portfolio:hover {
+  transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+    .portfoliotext {
+      font-family: sans-serif;
+      color:white;
+    text-decoration: none;
+    }
+    
+    .technologies {
+      display: inline;
+      position: relative;
+      font-size: xx-large;
+      margin-left: 20px;
+      color: darkblue;
+      background-color: darkblue;
+    text-decoration: none;
+    margin-right: 40px;
+    @media (max-width: 768px){
+          margin-left: 12px;
+          margin-right: 12px;
+          font-size: large;
+          
+          
+        }
+    }.technologies:hover {
+  transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+    .technologiestext {
+      font-family: sans-serif;
+      color: white;
+    text-decoration: none;
+    }
+
+    .contact {display: inline;
+      position: relative;
+      font-size: xx-large;
+      margin-left: 20px;
+    color: darkblue;
+    background-color: darkblue;
+    text-decoration: none;
+  margin-right: 40px;
+@media (max-width: 768px){
+  
+          margin-left: 12px;
+          margin-right: 12px;
+          font-size: large;
+          
+        }}.contact:hover {
+  transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    
+}
+  .contacttext {
+    font-family: sans-serif;
+      color: white;
+    text-decoration: none;
+  }}
