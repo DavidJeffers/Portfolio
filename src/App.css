@@ -145,8 +145,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
-    height: 50%;
-    width: 50%;
   }
 }
 .intro .left .img {
@@ -213,6 +211,7 @@
 @media (max-width: 768px) {
   .intro .right .wrapper {
     padding-left: 0;
+    padding-bottom: 15px;
     align-items: center;
   }
 }
