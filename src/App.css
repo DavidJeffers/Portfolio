@@ -145,6 +145,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 .intro .left .img {
@@ -154,7 +155,8 @@
 }
 @media (max-width: 768px) {
   .intro .left .img {
-    height: 90%;
+    height: 60%;
+    padding-bottom: 10px;
   }
 }
 .intro .left .img:hover {
