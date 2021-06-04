@@ -154,7 +154,7 @@
 }
 @media (max-width: 768px) {
   .intro .left .img {
-    height: 50%;
+    height: 90%;
   }
 }
 .intro .left .img:hover {
@@ -613,6 +613,11 @@ body {
   display: inline;
   position: relative;
   background-color: darkblue;
+}
+@media (max-width: 768px) {
+  .topbar .wrapper .right {
+    padding-right: 5px;
+  }
 }
 .topbar .links {
   display: table;
