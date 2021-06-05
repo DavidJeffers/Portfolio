@@ -100,7 +100,7 @@ export default function Portfolio() {
         {data2.map((d) => (
           <div onClick={(e) => {
       e.preventDefault();
-      window.open('https://davidjeffers.me') ;
+      window.open('https://davidjeffers.github.io/3dWorld/') ;
       }} className={d.featured ? "card featured" : "card"}>
             <div className="top">
               <img src="assets/right-arrow.png" className="left" alt="" />
